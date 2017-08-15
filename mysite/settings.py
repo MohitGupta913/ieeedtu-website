@@ -148,7 +148,9 @@ INSTALLED_APPS = (
     'djangocms_snippet',
     'djangocms_googlemap',
     'djangocms_video',
-    'mysite'
+    'mysite',
+    'aldryn_bootstrap3',
+    
 )
 
 LANGUAGES = (
@@ -178,6 +180,7 @@ CMS_TEMPLATES = (
     ## Customize this
     ('page.html', 'Page'),
     ('feature.html', 'Page with Feature')
+    
 )
 
 CMS_PERMISSION = True
