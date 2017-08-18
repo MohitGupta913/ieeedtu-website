@@ -12,7 +12,7 @@
 }
 
 body {
-    font-size: large;
+    font-size: medium;
 }
 
 .about {
@@ -76,17 +76,11 @@ footer {
 }
 
 footer a {
-    color: #212121;
+    color: #1976D2;
 }
 
 footer a .fa {
     font-size: xx-large;
-}
-
-@media screen and (min-width: 1024px) {
-    .footer-contact-info {
-        text-align: right;
-    }
 }
 
 .dark-footer {
