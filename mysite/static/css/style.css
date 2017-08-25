@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 0px;
     height: 100%;
     width: 100%;
-    background-color: white;
+    background-color: rgba(25,118,210,0.8);
     display: none;
     overflow-y: auto;
 }
