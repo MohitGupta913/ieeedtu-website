@@ -7,3 +7,7 @@ $(document).ready(function() {
         $(this).find(".panel-body").slideToggle(200);
     });
 });
+
+$(function() {
+	$('.row .panel').matchHeight();
+});
