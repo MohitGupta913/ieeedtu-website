@@ -8,7 +8,8 @@ h1, h2, h3, h4, h5, h6 {
     color:black;
 }
 .navbar-default .navbar-brand {
-    color: #2196F3;
+    color: white;
+    font-weight: bold;
 }
 
 .navbar-default .navbar-brand:hover {
@@ -53,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-header .navbar-toggle .icon-bar{
-    background-color: bla;
+    background-color: black;
 }
 
 
@@ -86,12 +87,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 footer {
-    background-color: #EEEEEE;
+    background-color: #B0BEC5;
     color: #141313;
 }
 
 footer a {
-    color: #1976D2;
+    color: black;
+    text-decoration: underline;
 }
 
 footer a .fa {
