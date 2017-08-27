@@ -9,17 +9,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar {
     margin-bottom: 0px;
+    background-color: black;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
     -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
 }
 
 .navbar .nav .active {
-    border-bottom: 5px solid #1976D2;
+    border-bottom: 5px solid white;
+    height: 64px;
 }
 
 .navbar .nav .active a {
     /* background-color: white; */
-    color: #212121;
+    color: white;
 }
 
 .panel-default > .panel-heading {
@@ -51,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 
 footer {
     background-color: #EEEEEE;
-    color: #212121;
+    color: #141313;
 }
 
 footer a {
@@ -63,7 +65,7 @@ footer a .fa {
 }
 
 .dark-footer {
-    background-color: #1976D2;
+    background-color: black;
     color: white;
     padding: 8px;
 }
