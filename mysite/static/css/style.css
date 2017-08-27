@@ -5,8 +5,14 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Calibri Light";
+    color:black;
 }
-
+.navbar-default .navbar-brand {
+    color: #2095F3;
+}
+.navbar-default .navbar-nav>li>a {
+     color: white;
+}
 .navbar {
     margin-bottom: 0px;
     background-color: black;
@@ -15,13 +21,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .nav .active {
-    border-bottom: 5px solid white;
-    height: 64px;
+    border-bottom: 5px solid rgba(25,118,210,0.8);
+    color:#2196f3;
 }
 
 .navbar .nav .active a {
     /* background-color: white; */
-    color: white;
+    color: black;
 }
 
 .panel-default > .panel-heading {
