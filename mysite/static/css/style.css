@@ -5,22 +5,57 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Calibri Light";
+    color:black;
+}
+.navbar-default .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #2196F3;
+}
+
+.navbar-default .navbar-nav>li>a {
+     color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #2196F3;
 }
 
 .navbar {
     margin-bottom: 0px;
+    background-color: black;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
     -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
 }
 
-.navbar .nav .active {
-    border-bottom: 5px solid #1976D2;
+.navbar .nav .active a {
+    border-bottom: 5px solid #2196F3;
+    background-color: black;
+    color: #2196F3;
+    font-weight: bold;
 }
 
-.navbar .nav .active a {
-    /* background-color: white; */
-    color: #212121;
+.navbar .nav .active a:hover {
+    border-bottom: 5px solid #2196F3;
+    background-color: black;
+    color: #2196F3;
+    font-weight: bold;
 }
+
+.navbar-header .navbar-toggle {
+    border-color: #2196F3;
+    color: white;
+    background-color: #2196F3;
+}
+
+.navbar-header .navbar-toggle .icon-bar{
+    background-color: black;
+}
+
+
 
 .panel-default > .panel-heading {
     background-color: white;
@@ -50,17 +85,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 footer {
-    background-color: #EEEEEE;
-    color: #212121;
+    background-color: #263238;
+    color: white;
 }
 
-footer a {
-    color: #1976D2;
+footer a, footer h5 {
+    color: white;
 }
 
-footer a .fa {
-    font-size: xx-large;
+footer a:hover {
+    text-decoration: none;
 }
+
+footer .round-icon {
+    display: inline-block;
+}
+
+footer .round-icon .fa {
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 0px 0px 4px 2px rgba(0 , 0, 0, 0.5);
+    display: table-cell;
+    font-size: x-large;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    width: 36px;
+}
+
+
 
 .dark-footer {
     background-color: #1976D2;
@@ -81,3 +134,4 @@ header h1 {
 .con {
     padding-top: 20px;
 }
+
