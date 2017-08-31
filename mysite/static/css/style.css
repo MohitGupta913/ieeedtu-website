@@ -46,13 +46,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-header .navbar-toggle {
-    border-color: #2196F3;
+    border-color: #1976D2;
     color: white;
-    background-color: #2196F3;
+    background-color: #1976D2;
 }
 
 .navbar-header .navbar-toggle .icon-bar{
-    background-color: black;
+    background-color: white;
 }
 
 
@@ -133,5 +133,15 @@ header h1 {
 
 .con {
     padding-top: 20px;
+}
+
+.vcenter {
+    display: table;
+}
+
+.vcenter div {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
 }
 
