@@ -7,3 +7,19 @@ $(document).ready(function() {
         $(this).find(".panel-body").slideToggle(200);
     });
 });
+
+$(function() {
+	$('.row .panel').matchHeight();
+});
+
+$('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 10000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
