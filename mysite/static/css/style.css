@@ -113,6 +113,12 @@ footer .round-icon .fa {
     width: 36px;
 }
 
+.fa {
+    
+    text-align: center;
+    vertical-align: middle;
+    
+}
 
 
 .dark-footer {
@@ -145,3 +151,8 @@ header h1 {
     float: none;
 }
 
+.count
+{
+  color:blue;
+  
+}
