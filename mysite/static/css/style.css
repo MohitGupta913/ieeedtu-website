@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 0px;
     height: 100%;
     width: 100%;
-    background-color: rgba(25,118,210,0.8);
+    background-color: rgba(25,118,210,0.9);
     display: none;
     overflow-y: auto;
 }
@@ -153,6 +153,13 @@ header h1 {
 
 .count
 {
-  color:blue;
+  color:#1976D2;
   
+}
+.imglogo {
+    height:200px;
+}
+.log 
+{
+    color:#1976D2;
 }
