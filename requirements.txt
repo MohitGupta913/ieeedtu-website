@@ -24,8 +24,10 @@ djangocms-text-ckeditor==3.5.0
 djangocms-video==2.0.3
 easy-thumbnails==2.3
 html5lib==0.9999999
+mysqlclient==1.3.12
 olefile==0.44
 Pillow==4.2.0
+PyMySQL==0.7.11
 pytz==2017.2
 six==1.10.0
 tzlocal==1.4

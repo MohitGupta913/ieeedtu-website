@@ -18,6 +18,8 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+from .dbconf import DBCONF
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
@@ -190,13 +192,14 @@ CMS_PLACEHOLDER_CONF = {}
 DATABASES = {
     'default': {
         'CONN_MAX_AGE': 0,
-        'ENGINE': 'django.db.backends.sqlite3',
-        'HOST': 'localhost',
-        'NAME': 'project.db',
-        'PASSWORD': '',
-        'PORT': '',
-        'USER': ''
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': 'ieeedtu.c4ugkj4qpdyq.ap-south-1.rds.amazonaws.com',
+        'NAME': 'ieeedtu',
+        'PASSWORD': 'iAm100%sexy',
+        'PORT': '3306',
+        'USER': 'ieeedtu'
     }
+    # 'default': DBCONF
 }
 
 MIGRATION_MODULES = {
