@@ -72,6 +72,9 @@ h1, h2, h3, h4, h5, h6 {
 .panel.hover-reveal {
     position: relative;
 }
+.panel-heading.hover-reveal {
+    position: relative;
+}
 
 .panel.panel.hover-reveal .panel-body {
     position: absolute;
@@ -82,6 +85,16 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgba(25,118,210,0.9);
     display: none;
     overflow-y: auto;
+}
+.panel-heading .smallbody 
+{
+   
+    position: absolute;
+    bottom:-9%;
+    background-color:  rgba(67, 119, 199, 0.39);
+    width: 100%;
+    color:white;
+   
 }
 
 footer {
