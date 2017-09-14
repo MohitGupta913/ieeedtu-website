@@ -190,16 +190,7 @@ CMS_PERMISSION = True
 CMS_PLACEHOLDER_CONF = {}
 
 DATABASES = {
-    'default': {
-        'CONN_MAX_AGE': 0,
-        'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'ieeedtu.c4ugkj4qpdyq.ap-south-1.rds.amazonaws.com',
-        'NAME': 'ieeedtu',
-        'PASSWORD': 'iAm100%sexy',
-        'PORT': '3306',
-        'USER': 'ieeedtu'
-    }
-    # 'default': DBCONF
+    'default': DBCONF
 }
 
 MIGRATION_MODULES = {
