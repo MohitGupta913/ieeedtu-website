@@ -18,6 +18,8 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+from .dbconf import DBCONF
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
@@ -28,7 +30,7 @@ SECRET_KEY = '!b(tfc@&zooh5_e@*f5(9&x-c#6uv(j&rb8(5j_yn+mv&_esg&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['7bcf37c4.ngrok.io', '127.0.0.1']
+ALLOWED_HOSTS = ['www.ieeedtu.com', 'ieeedtu.com', '127.0.0.1']
 
 
 # Application definition
@@ -188,15 +190,7 @@ CMS_PERMISSION = True
 CMS_PLACEHOLDER_CONF = {}
 
 DATABASES = {
-    'default': {
-        'CONN_MAX_AGE': 0,
-        'ENGINE': 'django.db.backends.sqlite3',
-        'HOST': 'localhost',
-        'NAME': 'project.db',
-        'PASSWORD': '',
-        'PORT': '',
-        'USER': ''
-    }
+    'default': DBCONF
 }
 
 MIGRATION_MODULES = {
